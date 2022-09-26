@@ -24,122 +24,17 @@
         <button class="join-button">JOIN</button>
       </div>
     </div>
-    <div class="cards-container" id="cards-container">
-      <div class="card">
-        <button class="card-delete"
-          ><img class="delete-image" src="delete.svg"
-        /></button>
-        <div class="card-title"><h3>Harry Potter and the Potatos</h3></div>
-        <div class="card-author"><p>James Clear</p></div>
-        <div class="card-pages"><p>355 Pages</p></div>
-        <div class="card-read"
-          ><p>Read</p
-          ><button class="read-button"
-            ><img class="check-image" src="check-filled.svg" /></button
-        ></div>
-      </div>
-      <div class="card">
-        <button class="card-delete"
-          ><img class="delete-image" src="delete.svg"
-        /></button>
-        <div class="card-title"><h3>Atomic Hobbits</h3></div>
-        <div class="card-author"><p>James Clear</p></div>
-        <div class="card-pages"><p>280 Pages</p></div>
-        <div class="card-read"
-          ><p>Read</p
-          ><button class="read-button"
-            ><img class="check-image" src="check-filled.svg" /></button
-        ></div>
-      </div>
-      <div class="card">
-        <button class="card-delete"
-          ><img class="delete-image" src="delete.svg"
-        /></button>
-        <div class="card-title"><h3>Atomic Hobbits</h3></div>
-        <div class="card-author"><p>James Clear</p></div>
-        <div class="card-pages"><p>280 Pages</p></div>
-        <div class="card-read"
-          ><p>Read</p
-          ><button class="read-button"
-            ><img class="check-image" src="check-filled.svg" /></button
-        ></div>
-      </div>
-      <div class="card">
-        <button class="card-delete"
-          ><img class="delete-image" src="delete.svg"
-        /></button>
-        <div class="card-title"><h3>Atomic Hobbits</h3></div>
-        <div class="card-author"><p>James Clear</p></div>
-        <div class="card-pages"><p>280 Pages</p></div>
-        <div class="card-read"
-          ><p>Read</p
-          ><button class="read-button"
-            ><img class="check-image" src="check-filled.svg" /></button
-        ></div>
-      </div>
-      <div class="card">
-        <button class="card-delete"
-          ><img class="delete-image" src="delete.svg"
-        /></button>
-        <div class="card-title"><h3>Atomic Hobbits</h3></div>
-        <div class="card-author"><p>James Clear</p></div>
-        <div class="card-pages"><p>280 Pages</p></div>
-        <div class="card-read"
-          ><p>Read</p
-          ><button class="read-button"
-            ><img class="check-image" src="check-filled.svg" /></button
-        ></div>
-      </div>
-      <div class="card">
-        <button class="card-delete"
-          ><img class="delete-image" src="delete.svg"
-        /></button>
-        <div class="card-title"><h3>Atomic Hobbits</h3></div>
-        <div class="card-author"><p>James Clear</p></div>
-        <div class="card-pages"><p>280 Pages</p></div>
-        <div class="card-read"
-          ><p>Read</p
-          ><button class="read-button"
-            ><img class="check-image" src="check-filled.svg" /></button
-        ></div>
-      </div>
-      <div class="card">
-        <button class="card-delete"
-          ><img class="delete-image" src="delete.svg"
-        /></button>
-        <div class="card-title"><h3>Atomic Hobbits</h3></div>
-        <div class="card-author"><p>James Clear</p></div>
-        <div class="card-pages"><p>280 Pages</p></div>
-        <div class="card-read"
-          ><p>Read</p
-          ><button class="read-button"
-            ><img class="check-image" src="check-filled.svg" /></button
-        ></div>
-      </div>
-      <div class="card">
-        <button class="card-delete"
-          ><img class="delete-image" src="delete.svg"
-        /></button>
-        <div class="card-title"><h3>Atomic Hobbits</h3></div>
-        <div class="card-author"><p>James Clear</p></div>
-        <div class="card-pages"><p>280 Pages</p></div>
-        <div class="card-read"
-          ><p>Read</p
-          ><button class="read-button"
-            ><img class="check-image" src="check-filled.svg" /></button
-        ></div>
-      </div>
-    </div>
+    <div class="cards-container" id="cards-container"> </div>
     <div class="footer"></div>
 
     <div id="blur"></div>
 
     <div id="form">
-      <form>
+      <form id="book-form" onsubmit="getData()" method="dialog">
         <p class="form-header">Add a book</p>
         <input
           type="text"
-          maxlength="32"
+          maxlength="45"
           name="title"
           id="title"
           placeholder="Title"
@@ -165,7 +60,7 @@
           ><label for="read">Read</label>
           <input type="checkbox" name="read" id="read"
         /></div>
-        <button class="submit-form-button">Done</button>
+        <button class="submit-form-button" id="submit-form-button">Done</button>
       </form>
     </div>
     <script src="script.js"></script>
