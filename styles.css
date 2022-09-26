@@ -73,6 +73,7 @@ img {
 
 .card-title {
   position: absolute;
+  text-align: center;
   margin-top: 30px;
   margin-left: 18px;
   margin-right: 18px;
@@ -80,24 +81,25 @@ img {
 
 .card-author {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 120px;
   margin-left: 18px;
   margin-right: 18px;
 }
 
 .card-pages {
   position: absolute;
-  margin-top: 140px;
+  margin-top: 160px;
   margin-left: 18px;
   margin-right: 18px;
 }
 
-.card-read {
+.read-button {
   display: flex;
   flex-direction: row;
   position: absolute;
-  margin-top: 190px;
+  margin-top: 210px;
   margin-left: 95px;
+  font-size: 15px;
 }
 
 .join-button {
@@ -115,12 +117,8 @@ img {
   grid-gap: 50px;
 }
 
+.delete-image,
 .check-image {
-  width: 25px;
-  height: 25px;
-}
-
-.delete-image {
   width: 20px;
   height: 20px;
 }
