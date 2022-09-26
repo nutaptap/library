@@ -71,31 +71,3 @@ createNewCard(
 );
 
 createNewCard("Atomic Habits", "James Clear", "285", true);
-
-createNewCard(
-  "Harry Potter and the Prisioner of Azkaban",
-  "J.K. Rowling",
-  "317",
-  true
-);
-
-createNewCard(
-  "Harry Potter and the Prisioner of Azkaban",
-  "J.K. Rowling",
-  "317",
-  true
-);
-
-createNewCard(
-  "Harry Potter and the Prisioner of Azkaban",
-  "J.K. Rowling",
-  "317",
-  true
-);
-
-createNewCard(
-  "Harry Potter and the Prisioner of Azkaban",
-  "J.K. Rowling",
-  "317",
-  true
-);
